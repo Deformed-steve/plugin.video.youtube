@@ -1,1 +1,13 @@
-
+<?xml version="1.0"?>
+<addon id="plugin.video.youtube" version="1.0" name="My YouTube Addon" provider-name="You">
+  <requires>
+    <import addon="xbmc.python" version="3.0.0"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="resources/lib/__init__.py">
+    <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary>YouTube API-powered addon</summary>
+    <platform>all</platform>
+  </extension>
+</addon>
